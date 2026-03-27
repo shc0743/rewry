@@ -1,5 +1,5 @@
 {
-  "name": "rewry",
+  "name": "rewryjs",
   "version": "0.0.0",
   "description": "Rewrite any npm package, just in browser.",
   "keywords": [
