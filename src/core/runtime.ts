@@ -4,7 +4,7 @@ import { StorageManager } from "./storage-manager";
 import { ResolveModule } from "@/resolve/resolve";
 
 export class RewryRuntime { 
-    get [Symbol.toStringTag]() { return "RewryRuntime"; };
+    static get [Symbol.toStringTag]() { return "RewryRuntime"; };
 
     #options: NormalizedRewryOptions;
     #storage: StorageManager;
